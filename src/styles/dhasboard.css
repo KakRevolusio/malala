@@ -1,0 +1,45 @@
+.card-icon {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 1;
+}
+
+.rating {
+  font-size: 24px;
+  color: #000;
+  cursor: pointer;
+}
+
+.rating .star {
+  transition: color 0.5s;
+}
+
+.rating .star:hover,
+.rating .star.active {
+  color: #ffc107; }
+    footer {
+          background-color: #476777;
+          padding: 20px 0;
+          color: #EAF2F6;
+      }
+
+      .footer-logo {
+          max-width: 100px; /* Adjust the max-width as needed */
+      }
+
+      .social-icons img {
+          max-width: 30px; /* Adjust the max-width as needed */
+          margin-right: 10px;
+      }
+
+      /* Adjust spacing and styling as needed */
+      .contact-info {
+          margin-top: 10px;
+      }
+
+      /* Center align the company name */
+      .company-name {
+          text-align: center;
+          margin-top: 20px;
+      }

@@ -1,0 +1,51 @@
+body {
+    background-color: #EAF2F6;
+    margin: 0;
+  }
+
+  .signup-container {
+    display: flex;
+    height: 100vh;
+  }
+
+  .left-section {
+    flex: 1;
+    background-color: #263238;
+    border-top-right-radius:45%;
+    border-bottom-right-radius: 45%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .right-section {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #EAF2F6;
+  
+  }
+  .line-container {
+    position: relative;
+    text-align: center;
+  }
+
+  .line {
+    width: 100%;
+    height: 1px; /* Ketebalan garis */
+    background-color: #000; /* Warna garis */
+    position: relative;
+    margin: 20px 0; /* Jarak atas dan bawah dari teks OR */
+  }
+
+  .text-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #EAF2F6; /* Warna latar belakang teks OR */
+    padding: 0 10px;
+    z-index: 2;
+  }

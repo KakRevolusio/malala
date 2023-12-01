@@ -1,0 +1,25 @@
+
+.landing {
+    background-image: url('../public/images/bglanding.jpg');
+    backdrop-filter: brightness(30%);
+    height: 100vh;
+  }
+  .judul {
+    font-family: 'Rufina', sans-serif;
+}
+.navbar-nav .nav-item:hover .nav-link {
+  border-bottom: 2px solid white;
+}
+.isi{
+  font-family: 'Poppins', sans-serif;
+}
+  .logo {
+    height: 50px;
+    position: absolute;
+    left: 90px; 
+
+}
+.container1{
+  margin-top: 150px;
+}
+
